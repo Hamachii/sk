@@ -1,0 +1,5 @@
+command /hub:
+    trigger:
+        execute console command "mvtp %player% world"
+        execute console command "mv spawn %player%"
+        send "&a転送しました"
